@@ -46,6 +46,20 @@
 
 		<!-- Servlet, JSP and JSTL support -->
 		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.45</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.mchange</groupId>
+			<artifactId>c3p0</artifactId>
+			<version>0.9.5.2</version>
+		</dependency>
+		
+		
+		
+		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
@@ -81,7 +95,7 @@
 
 	</dependencies>
 
-	<!-- TO DO: Add support for Maven WAR Plugin -->
+	<!-- Add support for Maven WAR Plugin -->
 		
 		<build>
 			<finalName>spring-security-demo</finalName>

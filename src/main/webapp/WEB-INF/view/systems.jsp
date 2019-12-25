@@ -16,8 +16,8 @@ Admin page Admin page
 <p>
 
 restricted massage for Admin
-<hr>
 </p>
+<hr>
 <a href="${pageContext.request.contextPath}/">Home</a>
 
 </body>
